@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_50"
+    android:padding="10dp"
+    tools:context=".activity.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/actMenuBtnWifiBluetooth"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/str_menu_wifi_bluetooth"
+        android:textColor="@color/white_50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/actMenuBtnRetrofit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/str_menu_retrofit"
+        android:textColor="@color/white_50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actMenuBtnWifiBluetooth" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/actMenuBtnFirebase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/str_menu_firebase"
+        android:textColor="@color/white_50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actMenuBtnRetrofit" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/actMenuBtnMap"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/str_menu_gmap"
+        android:textColor="@color/white_50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actMenuBtnFirebase" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/actMenuBtnAccelerometerGyroscope"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/str_menu_accelerometer_gyroscope"
+        android:textColor="@color/white_50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actMenuBtnMap" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GatewayRK</string>
+    <string name="str_loading">Loading</string>
+    <string name="str_please_wait">Please wait…</string>
+    <string name="str_something_went_wrong">Something went wrong. Please try again</string>
+    <string name="str_network_error">Check your internet connection and try again</string>
+    <string name="str_bluetooth_status">Bluetooth Status : </string>
+    <string name="str_wifi_status">WIFI Status : </string>
+    <string name="str_on">ON</string>
+    <string name="str_off">OFF</string>
+    <string name="str_video_upload_fail">Video Upload Fail. Please try again</string>
+    <string name="str_video_upload_success">Video Uploaded Successfully!!</string>
+    <string name="str_select_video">Select Video</string>
+    <string name="str_like">Like</string>
+    <string name="str_unlike">Unlike</string>
+    <string name="str_like_count">Like unlike count - 1</string>
+    <string name="str_unlike_count">Like unlike count - 0</string>
+    <string name="str_menu_wifi_bluetooth">Wifi &amp; Bluetooth</string>
+    <string name="str_menu_retrofit">Retrofit</string>
+    <string name="str_menu_firebase">Firebase</string>
+    <string name="str_menu_gmap">Google Map</string>
+    <string name="str_menu_accelerometer_gyroscope">Accelerometer and Gyroscope</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "844207585981",
+    "firebase_url": "https://gatewayrk-e469b-default-rtdb.firebaseio.com",
+    "project_id": "gatewayrk-e469b",
+    "storage_bucket": "gatewayrk-e469b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844207585981:android:46baa9624a15281ad895d4",
+        "android_client_info": {
+          "package_name": "com.example.gateway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844207585981-rn6dpfgqiq8qhpf77ev6ovs02uso83i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Vd5-stiaPCPpDEZAJgzfRC8qeIBOjgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844207585981-rn6dpfgqiq8qhpf77ev6ovs02uso83i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
